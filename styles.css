@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Futrista;
+  src: url(Futrista.otf);
+}
+@font-face {
+  font-family: Hero;
+  src: url(Hero Light.otf);
+}
+h1  {
+  font-family: Futrista;
+  font-size: 55px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 3s steps(60, end); 
+  display: inline-block;
+  vertical-align: center;
+  
+  
+
+  
+}
+
+h4 {
+  font-family: Futrista;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+  vertical-align: center;
+  color: #000;
+  animation: type 7s steps(60, end); 
+
+}
+
+h5 {
+  font-family: Hero;
+  text-decoration: none;
+  font-weight: 100;
+  margin-right: 15px;
+  font-size: 13px;
+  color: ##313639;
+
+}
+ .stick:hover{
+  color: #ffe41c;
+}
+.blog:hover {
+  color: #ff581c;
+}
+.git:hover {
+  color: #73CD53;
+}
+a {
+  text-decoration: none;
+  font-size: 10px;
+}
+li .nav {
+  float: right;
+  position: relative;
+  text-decoration: none;
+  margin: 0 auto;
+
+}
+.head {
+  margin-top: 5%;
+  
+
+  
+
+}
+
+
+
+h2{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
